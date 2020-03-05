@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBADFC87240F109B00057153 /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = BBADFC86240F109B00057153 /* switch.wav */; };
+		BBC975EC240F0485006F6766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC975EB240F0485006F6766 /* AppDelegate.swift */; };
+		BBC975EE240F0485006F6766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC975ED240F0485006F6766 /* ViewController.swift */; };
+		BBC975F1240F0485006F6766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC975EF240F0485006F6766 /* Main.storyboard */; };
+		BBC975F3240F0487006F6766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC975F2240F0487006F6766 /* Assets.xcassets */; };
+		BBC975F6240F0487006F6766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC975F4240F0487006F6766 /* LaunchScreen.storyboard */; };
+		BBC97601240F0487006F6766 /* FlashLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC97600240F0487006F6766 /* FlashLightTests.swift */; };
+		BBC9760C240F0488006F6766 /* FlashLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC9760B240F0488006F6766 /* FlashLightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBC975FD240F0487006F6766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC975E0240F0485006F6766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC975E7240F0485006F6766;
+			remoteInfo = FlashLight;
+		};
+		BBC97608240F0488006F6766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC975E0240F0485006F6766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC975E7240F0485006F6766;
+			remoteInfo = FlashLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBADFC86240F109B00057153 /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = switch.wav; path = Resource/Sound/switch.wav; sourceTree = SOURCE_ROOT; };
+		BBC975E8240F0485006F6766 /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC975EB240F0485006F6766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBC975ED240F0485006F6766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBC975F0240F0485006F6766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBC975F2240F0487006F6766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBC975F5240F0487006F6766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBC975F7240F0487006F6766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC975FC240F0487006F6766 /* FlashLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC97600240F0487006F6766 /* FlashLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLightTests.swift; sourceTree = "<group>"; };
+		BBC97602240F0488006F6766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC97607240F0488006F6766 /* FlashLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC9760B240F0488006F6766 /* FlashLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLightUITests.swift; sourceTree = "<group>"; };
+		BBC9760D240F0488006F6766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC975E5240F0485006F6766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC975F9240F0487006F6766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC97604240F0488006F6766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBC975DF240F0485006F6766 = {
+			isa = PBXGroup;
+			children = (
+				BBC975EA240F0485006F6766 /* FlashLight */,
+				BBC975FF240F0487006F6766 /* FlashLightTests */,
+				BBC9760A240F0488006F6766 /* FlashLightUITests */,
+				BBC975E9240F0485006F6766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC975E9240F0485006F6766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC975E8240F0485006F6766 /* FlashLight.app */,
+				BBC975FC240F0487006F6766 /* FlashLightTests.xctest */,
+				BBC97607240F0488006F6766 /* FlashLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC975EA240F0485006F6766 /* FlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				BBC975EB240F0485006F6766 /* AppDelegate.swift */,
+				BBC975ED240F0485006F6766 /* ViewController.swift */,
+				BBC975EF240F0485006F6766 /* Main.storyboard */,
+				BBC975F2240F0487006F6766 /* Assets.xcassets */,
+				BBC975F4240F0487006F6766 /* LaunchScreen.storyboard */,
+				BBC975F7240F0487006F6766 /* Info.plist */,
+				BBADFC86240F109B00057153 /* switch.wav */,
+			);
+			path = FlashLight;
+			sourceTree = "<group>";
+		};
+		BBC975FF240F0487006F6766 /* FlashLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC97600240F0487006F6766 /* FlashLightTests.swift */,
+				BBC97602240F0488006F6766 /* Info.plist */,
+			);
+			path = FlashLightTests;
+			sourceTree = "<group>";
+		};
+		BBC9760A240F0488006F6766 /* FlashLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC9760B240F0488006F6766 /* FlashLightUITests.swift */,
+				BBC9760D240F0488006F6766 /* Info.plist */,
+			);
+			path = FlashLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC975E7240F0485006F6766 /* FlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC97610240F0488006F6766 /* Build configuration list for PBXNativeTarget "FlashLight" */;
+			buildPhases = (
+				BBC975E4240F0485006F6766 /* Sources */,
+				BBC975E5240F0485006F6766 /* Frameworks */,
+				BBC975E6240F0485006F6766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashLight;
+			productName = FlashLight;
+			productReference = BBC975E8240F0485006F6766 /* FlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBC975FB240F0487006F6766 /* FlashLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC97613240F0488006F6766 /* Build configuration list for PBXNativeTarget "FlashLightTests" */;
+			buildPhases = (
+				BBC975F8240F0487006F6766 /* Sources */,
+				BBC975F9240F0487006F6766 /* Frameworks */,
+				BBC975FA240F0487006F6766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC975FE240F0487006F6766 /* PBXTargetDependency */,
+			);
+			name = FlashLightTests;
+			productName = FlashLightTests;
+			productReference = BBC975FC240F0487006F6766 /* FlashLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBC97606240F0488006F6766 /* FlashLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC97616240F0488006F6766 /* Build configuration list for PBXNativeTarget "FlashLightUITests" */;
+			buildPhases = (
+				BBC97603240F0488006F6766 /* Sources */,
+				BBC97604240F0488006F6766 /* Frameworks */,
+				BBC97605240F0488006F6766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC97609240F0488006F6766 /* PBXTargetDependency */,
+			);
+			name = FlashLightUITests;
+			productName = FlashLightUITests;
+			productReference = BBC97607240F0488006F6766 /* FlashLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC975E0240F0485006F6766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "임원선";
+				TargetAttributes = {
+					BBC975E7240F0485006F6766 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BBC975FB240F0487006F6766 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BBC975E7240F0485006F6766;
+					};
+					BBC97606240F0488006F6766 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BBC975E7240F0485006F6766;
+					};
+				};
+			};
+			buildConfigurationList = BBC975E3240F0485006F6766 /* Build configuration list for PBXProject "FlashLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC975DF240F0485006F6766;
+			productRefGroup = BBC975E9240F0485006F6766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC975E7240F0485006F6766 /* FlashLight */,
+				BBC975FB240F0487006F6766 /* FlashLightTests */,
+				BBC97606240F0488006F6766 /* FlashLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC975E6240F0485006F6766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBADFC87240F109B00057153 /* switch.wav in Resources */,
+				BBC975F6240F0487006F6766 /* LaunchScreen.storyboard in Resources */,
+				BBC975F3240F0487006F6766 /* Assets.xcassets in Resources */,
+				BBC975F1240F0485006F6766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC975FA240F0487006F6766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC97605240F0488006F6766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC975E4240F0485006F6766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC975EE240F0485006F6766 /* ViewController.swift in Sources */,
+				BBC975EC240F0485006F6766 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC975F8240F0487006F6766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC97601240F0487006F6766 /* FlashLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC97603240F0488006F6766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC9760C240F0488006F6766 /* FlashLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBC975FE240F0487006F6766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC975E7240F0485006F6766 /* FlashLight */;
+			targetProxy = BBC975FD240F0487006F6766 /* PBXContainerItemProxy */;
+		};
+		BBC97609240F0488006F6766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC975E7240F0485006F6766 /* FlashLight */;
+			targetProxy = BBC97608240F0488006F6766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBC975EF240F0485006F6766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC975F0240F0485006F6766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBC975F4240F0487006F6766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC975F5240F0487006F6766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBC9760E240F0488006F6766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBC9760F240F0488006F6766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC97611240F0488006F6766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlashLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.cau.FlashLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC97612240F0488006F6766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlashLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.cau.FlashLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBC97614240F0488006F6766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlashLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.cau.FlashLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashLight.app/FlashLight";
+			};
+			name = Debug;
+		};
+		BBC97615240F0488006F6766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlashLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.cau.FlashLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashLight.app/FlashLight";
+			};
+			name = Release;
+		};
+		BBC97617240F0488006F6766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlashLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.cau.FlashLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlashLight;
+			};
+			name = Debug;
+		};
+		BBC97618240F0488006F6766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlashLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.cau.FlashLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlashLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC975E3240F0485006F6766 /* Build configuration list for PBXProject "FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC9760E240F0488006F6766 /* Debug */,
+				BBC9760F240F0488006F6766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC97610240F0488006F6766 /* Build configuration list for PBXNativeTarget "FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC97611240F0488006F6766 /* Debug */,
+				BBC97612240F0488006F6766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC97613240F0488006F6766 /* Build configuration list for PBXNativeTarget "FlashLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC97614240F0488006F6766 /* Debug */,
+				BBC97615240F0488006F6766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC97616240F0488006F6766 /* Build configuration list for PBXNativeTarget "FlashLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC97617240F0488006F6766 /* Debug */,
+				BBC97618240F0488006F6766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBC975E0240F0485006F6766 /* Project object */;
+}
